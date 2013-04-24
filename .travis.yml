@@ -9,3 +9,4 @@ before_install:
   # you are building for android (run "android list sdk" to get the full list. 9 = 2.3.3 or API level 10
   # - android update sdk --filter 1,2,9 --no-ui --force
   - android update sdk --no-ui --obsolete --force
+  - ant maven-setup
