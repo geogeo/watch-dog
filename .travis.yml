@@ -13,4 +13,3 @@ before_install:
   - android list target
   - android update project -p . --target 1
   - ant maven-setup
-  - mvn clean test
